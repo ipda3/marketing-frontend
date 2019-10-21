@@ -1,0 +1,36 @@
+/* Articles Page */
+.articles {
+    padding:0;
+    .boxes {
+        padding:20px;
+        .box {
+            border:1px solid #ccc;
+            box-shadow: 1px 1px 1px 1px #ccc;
+            h3 {
+                padding: 20px;
+            }
+
+        }
+        nav {
+            .pagination {
+                li {
+                    a {
+                        padding: 10px 16px;
+                        font-weight:bold;
+                        &:hover {
+                            background-color:#337ab7;
+                            color:#fff !important;
+                        }
+                    }
+                    .active {
+                        background-color:#337ab7;
+                        color:#fff !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* Article Page */

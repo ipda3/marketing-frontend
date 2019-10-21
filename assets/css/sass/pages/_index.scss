@@ -1,0 +1,190 @@
+/* Start Header Section */
+
+header {
+    overflow: hidden;
+    .header-content {
+        h1 {
+            padding: 100px 30px 80px 50px;
+            line-height: 1.8;
+            font-weight: bold;
+        }
+    }
+}
+
+/* End Header Section */
+
+/* Start About Section */
+
+.about {
+    margin:30px 0;
+    padding:30px 0;
+    h2 {
+        margin-bottom: 30px;
+    }
+    .lead {
+        padding-top: 50px;
+        font-weight: bold;
+        font-size: 23px;
+    }
+    .about-img {
+        overflow: hidden;
+        img {
+            max-width:300px;
+        }
+    }
+
+}
+
+/* End About Section */
+
+/* Start Features Section */
+
+.features {
+    padding:60px 0;
+    .box {
+        .media {
+            margin-top:40px;
+            .media-object {
+                max-width: 70px;
+            }
+            .media-body {
+                .media-heading {
+                    font-size:18px;
+                    font-weight: bold;
+                }
+                font-size: 14px;
+            }
+        }
+    }
+    .feat-img {
+
+        img {
+            max-width:200px;
+        }
+    }
+}
+
+/* End Features Section */
+
+/* Start Portfolio Section */
+
+.portfolio {
+    padding:60px 0;
+    h2 {
+        margin-bottom:40px;
+    }
+    .simples {
+        padding:30px 10px;
+        .simples-card {
+            position: relative;
+            margin-bottom:30px;
+            .card-content {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0,0,0,0.5);
+                color:#fff;
+                transition: all 1s ease-in-out;
+                h2 {
+                    line-height:6;
+                    color:#fff !important;
+                }
+            }
+            &:hover .card-content {
+                display: block;
+            }
+            div.active {
+                display: block;
+            }
+        }
+    }
+}
+
+/* End Portfolio Section */
+
+/* Start Articles Section */
+
+.articles {
+    padding:60px 0;
+    h2 {
+        margin-bottom: 40px;
+        
+    }
+    .box {
+        background-color:#eee ;
+        border-radius: 10px;
+        width: 70%;
+        margin:0 auto 20px;
+        overflow: hidden;
+        padding-bottom:20px;
+        display:block;
+    
+        img {
+            max-width: 100%;
+
+            border-radius:10px;
+        }
+        h3 {
+            font-size: 22px;
+            color:$main-color;
+        }
+        p {
+            font-size:15px;
+            padding:10px 15px 
+        }
+    }
+}
+
+/* End Articles Section */
+
+/* Start Clients Section */
+
+.clients {
+    padding:60px 0;
+    h2 {
+        margin-bottom: 40px;
+    }
+    .carusal-box {
+        padding:60px 0;
+        img {
+            max-width: 100%;
+            margin:auto
+        }
+    }
+    .slick-slide {
+        height:auto
+    }
+}
+
+/* End Clients Section */
+
+/* Start Testimonilas Section */
+
+.testi {
+    h2 {
+        margin-bottom: 40px;
+    }
+    .slider {
+        padding:80px 0;
+        .media {
+            background-color: #fff;
+            margin-right: 25px;
+            padding: 40px 10px;
+            border-radius: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            box-shadow: 1px 1px 1px 1px #ddd;
+            .media-object {
+                    max-width:70px
+                }
+            }
+        }
+    .slick-slide {
+        height: auto;
+    }
+}
+
+/* End Testimonilas Section */

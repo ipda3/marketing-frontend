@@ -1,0 +1,48 @@
+/* Start Navbar Section */
+
+.navbar {
+    border-bottom:1px solid #EEE;
+    .nav-menu {
+        padding:0 0 5px;
+        i {
+            float: left;
+            padding: 30px;
+            cursor:pointer;
+        }
+        .nav-img {
+            float: right;
+            direction: rtl;
+            margin-right: 50px;
+            padding:5px;
+            a, h2 {
+                display: inline-block;
+            }
+            a {
+                margin-left: 20px;
+                img {
+                    max-width: 60px; 
+                }
+            }
+            h2 {
+                margin-top: 25px;
+                font-size: 30px;
+            }
+        }
+    }
+    .nav-content {
+        display: none;
+        padding-left: 20px;
+        text-align: left;
+        li {
+            a {
+                font-size:20px;
+                color:#000;
+                &:hover {
+                    text-decoration:none;
+                }
+            }
+        }
+    }
+}
+
+/* End Navbar Section */
